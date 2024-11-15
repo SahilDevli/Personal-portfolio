@@ -29,22 +29,20 @@ export default function bodyContent() {
       <p><b>I'm</b></p>
       <h2>SAHIL DEVLI</h2>
       <p>
-        a frontend web developer. I am a passionate and dedicated web developer with a strong foundation
-        in <b> HTML, CSS, JavaScript and TypeScript. Also have good command in CSS and
-        JavaScript base libraries and frameworks( i.e. Tailwind, Bootstrap, ReactJS,
-        Redux and NodeJS )</b>.
-        I am always eager to learn and improve my skills. My
-        goal is to create engaging and user-friendly websites that help
+        a Software Developer. I am a passionate and dedicated software and front-end web developer with a strong foundation
+        in <b>JAVA,C++ for Software And HTML, CSS(Tailwind, Bootstrap), JavaScript(ReactJS)</b>.
+        I am always eager to learn and improve my skills and logic building approch. My
+        goal is to create engaging and user-friendly websites and Softwares that help
         businesses achieve their goals.
       </p>
       <p>
-        I am currently available for freelance work, so if you're interested in
-        working together on a project or need assistance with your website,
+        I am currently available for interships, so if you're looking for a
+        efficient Engineer,
         please don't hesitate to reach out.
       </p>
       <p>
         If you'd like to learn more about my <a href="/">skills</a> and{" "}
-        <a href="/">experience</a>.
+        <a href="/">projects</a>.
       </p>
     </div>
 
