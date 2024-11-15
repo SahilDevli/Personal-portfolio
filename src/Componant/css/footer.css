@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200&display=swap');
+.footcont{
+    /* border: 1px solid rgb(90, 89, 89); */
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 10px solid rgb(21, 21, 21);
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    gap: 9px;
+    align-items: center;
+}
+.first{
+    /* border: 1px solid rgb(90, 89, 89); */
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first svg{
+    /* border: 1px solid rgb(90, 89, 89); */
+    height: 25px;
+    width: 25px;
+}
+.first a{
+    color: rgb(174, 174, 174);
+    text-decoration: none;
+}
+
+.mid{
+    border: 1px solid rgb(36, 36, 36);
+    height: 150px;
+
+}
+
+#social1:hover .svg1{
+    filter: brightness(0.5);
+    background-color: rgb(2, 99, 255);
+}
+
+.profileinfo{
+    /* border: 1px solid; */
+    height: 200px;
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileinfo p{
+    /* border: 1px solid; */
+    width: 250px;
+    text-align: center;
+    font-size: 13.5px;
+    font-family: "Inter";
+    color: rgb(156, 154, 154);
+    font-weight: 500;
+}
+.profileinfo img{
+    border: 1px solid rgb(21, 21, 21);
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+}
+
+
+.links{
+    /* border: 1px solid; */
+    display: flex;
+    width: 400px;
+    height: 210px;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    gap: 2px;
+}
+.links .quick{
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column; 
+    width: 150px;
+    height: 210px;
+    gap: 14px;
+}
+.links .quick h4{
+    font-family: "Inter";
+    color: rgb(213, 213, 212);
+}
+.links .quick a{
+    /* border: 1px solid white; */
+    padding-left:10px;
+    font-family: "Inter";
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+.links .quick a:hover{
+    text-decoration:underline;
+    transition: 0.3s;
+}
+
+.links .Projects{
+    display: flex;
+    flex-direction: column; 
+    width: 150px;
+    height: 280px;
+    gap: 14px;
+    /* border: 1px solid; */
+}
+.links .Projects h4{
+    font-family: "Inter";
+    color: rgb(213, 213, 212);
+}
+.links .Projects a{
+    padding-left: 10px;
+    font-family: "Inter";
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+.links .Projects a:hover{
+    text-decoration:underline;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 1300px){
+
+    .mid{
+        /* border: 1px solid rgb(36, 36, 36); */
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        
+    }
+}

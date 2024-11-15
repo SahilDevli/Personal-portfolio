@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@600&family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200&display=swap');
+
+.back{
+    position: absolute;
+    z-index: -1;
+    /* border-radius: 10px; */
+    height: 650px;
+    width: 1000px;
+    border-right: 2px solid rgb(40, 39, 39);
+    border-left:2px solid rgb(81, 81, 81) ;
+    top: 55px;
+    left: 30.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back img{
+    height: 650px;
+    filter: brightness(0.8);
+    /* border: 2px solid white; */
+}
+
+.mob{
+    height: 0;
+    width: 0;
+}
+
+
+.maincont{
+    /* border: 0.5px solid rgb(198, 198, 198); */
+    width: 470px;
+    height: 520px;
+    margin-left: 160px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(186, 184, 184, 0.099);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-left: 20px;
+    padding-top: 40px;
+    border-radius: 15px;
+    padding-right: 10px;
+    box-shadow: 4px 4px 4px rgba(54, 54, 54, 0.5),
+    -3px -3px 3px rgba(34, 34, 34, 0.5);
+    transition: all 0.4s ease-out 1ms;
+}
+.maincont:hover{
+    cursor:default;
+    box-shadow: 4px 4px 4px rgba(68, 67, 67, 0.5),
+    -3px -3px 3px rgba(34, 34, 34, 0.5);
+    /* transition: 0.4s; */
+}
+
+h2{
+    font-family: "Lexend Zetta", sans-serif;
+    color: rgba(222, 3, 3, 0.496);
+}
+a{
+    color: rgb(3, 138, 248);
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(2, 114, 205);
+    transition: 0.3s;
+}
+p{
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: 9px;
+    color: rgba(220, 217, 217, 0.8);
+}
+
+
+
+
+
+
+
+
+button{
+    position: absolute;
+    z-index: 10;
+    bottom: 90px;
+    right: 80px;
+    color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 350px;
+    height: 70px;
+    background-color: rgba(186, 184, 184, 0.099);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 100px;
+    font-family: "Lexend Zetta";
+}
+button:hover{
+    background-color: rgba(105, 104, 104, 0.099);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button img{
+    height: 30px;
+    filter: brightness(0.7);   
+    margin-left: 10px;
+    transition: all 0.4s ease-out 1ms;
+}
+button:hover
+#download{
+    margin-top: 6px;
+}
+
+
+
+
+/* xcreen size for samll laptops */
+@media screen and (max-width: 1000px){
+    .mob{
+        z-index: 1;
+        position: relative;
+        height: 100vh;
+        width: 99.7vw;
+    }
+
+
+
+    .back{
+        /* border: 1px solid white; */
+        border-radius: 100%;
+        position: absolute;
+        z-index: 10;
+        top: 50px;
+        left: 38%;
+        height: 250px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+        border: none;
+
+    }
+    
+    .back img{
+        /* border: 1px solid white; */
+        position: absolute;
+        z-index: 1;
+        margin-left: 0px;
+        height: 250px;
+        filter: brightness(0.7);
+    }
+
+
+
+
+
+
+    .maincont{
+        position:absolute;
+        z-index: 1;
+        top: 250px;
+        /* border: 0.5px solid rgb(189, 172, 172); */
+        width: 470px;
+        height: 450px;
+        margin-right: 90px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 40px;
+        padding-right: 10px;
+        overflow-x: hidden;
+        margin-bottom: 10px;
+    }
+    
+    h2{
+        font-size: 19px;
+        font-family: "Lexend Zetta", sans-serif;
+        color: rgba(222, 3, 3, 0.496);
+    }
+    p{
+        font-optical-sizing: auto;
+        font-size: 15px;
+    }
+    
+
+
+
+
+    button{
+        position: absolute;
+        z-index: 10;
+        font-size: 11px;
+        width: 270px;
+        height: 70px;
+        left: 20%;
+        
+        
+    }
+    
+    button img{
+        height: 25px;
+        filter: brightness(0.7);    
+        margin-left: 10px;
+    }
+}

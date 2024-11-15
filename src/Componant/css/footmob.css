@@ -1,0 +1,124 @@
+@media screen and (max-width:440px){
+
+    .footcont{
+        /* border: 1px solid rgb(90, 89, 89); */
+        margin-top: 50px;
+        padding-top: 30px;
+        border-top: 10px solid rgb(21, 21, 21);
+        height: 700px;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        justify-content: center;
+        gap: 9px;
+        align-items: center;
+    }
+    .first{
+        /* border: 1px solid rgb(90, 89, 89); */
+        height: 100px;
+        width: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .first svg{
+        /* border: 1px solid rgb(90, 89, 89); */
+        height: 25px;
+        width: 25px;
+    }
+    .first a{
+        color: rgb(174, 174, 174);
+        text-decoration: none;
+    }
+    
+    .mid{
+        visibility: hidden;
+        border: none;
+        height: 0;
+        
+    }
+    
+    #social1:hover .svg1{
+        filter: brightness(0.5);
+        background-color: rgb(2, 99, 255);
+    }
+    
+    .profileinfo{
+        /* border: 1px solid; */
+        height: 100px;
+        width: 290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    
+    .profileinfo p{
+        /* border: 1px solid; */
+        width: 250px;
+        text-align: center;
+        font-size: 13.5px;
+        font-family: "Inter";
+        color: rgb(156, 154, 154);
+        font-weight: 500;
+
+    }
+    .profileinfo img{
+        /* border: 1px solid rgb(21, 21, 21); */
+        border-radius: 100px;
+        height: 90px;
+        width: 90px;
+    }
+    
+    
+    .links{
+        /* border: 1px solid; */
+        display: flex;
+        width: 400px;
+        height: 210px;
+        justify-content:left;
+        padding-left: 80px;
+        gap: 70px;
+        margin-bottom: 90px;
+        margin-top: 90px;
+    }
+    .links .quick{
+        /* border: 1px solid; */
+        display: flex;
+        flex-direction: column; 
+        width: 100px;
+        height: 210px;
+        gap: 14px;
+    }
+    .links .quick a{
+        /* border: 1px solid white; */
+        padding-left:8px;
+        font-family: "Inter";
+        color: rgb(161, 161, 161);
+        text-decoration: none;
+        /* font-size: 14px; */
+    }
+    
+    .links .Projects{
+        display: flex;
+        flex-direction: column; 
+        width: 150px;
+        height: 210px;
+        gap: 14px;
+        /* border: 1px solid; */
+    }
+
+    .links .Projects a{
+        padding-left: 5px;
+        font-family: "Inter";
+        color: rgb(161, 161, 161);
+        text-decoration: none;
+    }
+    .links .Projects a:hover{
+        text-decoration:underline;
+        transition: 0.3s;
+    }
+}
